@@ -20,7 +20,7 @@ app.use("/api/books", booksRoutes);
 app.use("/api/borrow", borrowRoutes);
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Welcome from Library Management System");
+  res.send("Welcome to Library Management System");
 });
 
 // 404 error

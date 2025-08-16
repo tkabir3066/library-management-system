@@ -9,10 +9,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: [
-      "https://react-redux-library-management.vercel.app/",
-      "live-deploy-url",
-    ],
+    origin: ["https://localhost:5173", "live-deploy-url"],
   })
 );
 

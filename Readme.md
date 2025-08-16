@@ -6,18 +6,18 @@ A simple RESTful API for managing books and borrowing records in a library syste
 
 ## 🚀 Features
 
-* Add, view, update, and delete books
-* Borrow books with stock validation
-* Aggregated summary of borrowed books
-* Clean structure with TypeScript and proper error handling
+- Add, view, update, and delete books
+- Borrow books with stock validation
+- Aggregated summary of borrowed books
+- Clean structure with TypeScript and proper error handling
 
 ---
 
 ### 🛠️ Tech Stack
 
-* **Backend:** Node.js, Express
-* **Database:** MongoDB (with Mongoose)
-* **Language:** TypeScript
+- **Backend:** Node.js, Express
+- **Database:** MongoDB (with Mongoose)
+- **Language:** TypeScript
 
 ---
 
@@ -26,7 +26,7 @@ A simple RESTful API for managing books and borrowing records in a library syste
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/alifa-ara-heya/Library-Management-API.git
+   git clone https://github.com/tkabir3066/Library-Management-API.git
    cd .\Library-Management-API\
    ```
 
@@ -57,9 +57,9 @@ A simple RESTful API for managing books and borrowing records in a library syste
 ```md
 src/
 ├── app/
-│   ├── controllers/
-│   ├── models/
-│   ├── interfaces/
+│ ├── controllers/
+│ ├── models/
+│ ├── interfaces/
 ├── server.ts
 ├── app.ts
 ```
@@ -112,4 +112,4 @@ Returns the total number of borrowed copies per book, along with the book's titl
 
 You can use **Postman** or **Thunder Client** to test the API. Make sure MongoDB is running locally or use a remote URI in `.env`.
 
-> [Live link](https://library-management-api-eta.vercel.app)
+> [Live link](https://library-management-system-xi-cyan.vercel.app/)

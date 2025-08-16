@@ -113,7 +113,7 @@ booksRoutes.get(
 );
 
 // updating book
-booksRoutes.patch(
+booksRoutes.put(
   "/:bookId",
   async (req: Request, res: Response, next: NextFunction) => {
     try {
